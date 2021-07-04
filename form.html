@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+    <style>
+        form {
+            margin-left: 40%;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            color: rgb(4, 4, 224);
+        }
+    </style>
+</head>
+
+<body>
+    <h2> Customers Review</h2>
+    <form action="">
+        <label for="fname"> *First name:</label><br>
+        <input type="text" required id="fname" name="fname"><br> <br>
+
+        <label for="lname"> *Last name:</label><br>
+        <input type="text" required id="lname" name="lname"> <br><br>
+
+        <label for="username"> *Username:</label><br>
+        <input type="text" required id="username" name="username"><br><br>
+
+        <label for="pwd"> *Password:</label><br>
+        <input type="password" required id="pwd" name="pwd"><br><br>
+
+        <label for="mail"> email id</label> <br>
+        <input type="email" id="mail" name="mail"> <br> <br>
+
+        <label for="birthday">Your date of birth</label>
+        <input type="date" id="birthday" name="birthday"> <br><br>
+
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile"><br><br>`
+
+        <label for="quantity"> Please rate our service (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{1}-[0-9]{2}-[0-9]{3}"><br><br>
+
+        <label for="homepage">Add your homepage:</label>
+        <input type="url" id="homepage" name="homepage"><br><br>
+
+
+        <label for="service"> Our service is: </label> <br>
+        <input type="radio" id="Very Good" name="Very Good" value="Very Good">
+        <label for="Very Good">Very Good</label><br>
+        <input type="radio" id="Good" name="Good" value="Good">
+        <label for="Good">Good</label><br>
+        <input type="radio" id="satisfractory" name="satisfractory" value="satisfractory">
+        <label for="satisfractory">Satisfractory</label><br>
+        <input type="radio" id="Not Satisfractory" name="Not Satisfractory" value="Not Satisfractory">
+        <label for="Not Satisfractory">Not Satisfractory</label> <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="button" value="Cancel">
+
+
+    </form>
+</body>
+
+</html>
