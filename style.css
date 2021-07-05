@@ -1,25 +1,63 @@
-h1 {
-            font-size: 400%;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: rgb(247, 251, 253);
-            font-weight: bolder;
-            text-align: center;
-            margin: 0px 450px 50px 450px;
-            padding: 20px;
+body, html {
+    height: 100%;
+  }
+    h1 {
+        font-size: 600%;
+        font-family: 'Bree Serif', serif;
+        color: rgba(49, 35, 245, 0.959);
+        font-weight: bolder;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);  
         }
-
-        header {
-            background-color: rgb(88, 34, 34);
-        }
-
-        #logo {
+    .top-right {
+        font-family: 'Bree Serif', serif;
+            font-weight: 400;
+            font-size: 150%;
+            border: blue solid 0px;
+            padding: 2px 5px 2px 5px;
+            border-radius: 7px;
+            background-image: radial-gradient(rgb(236, 56, 20), rgb(230, 121, 82) );
+            color: whitesmoke;
+          }
+        .home-button{
             position: absolute;
-            top: 20px;
-            left: 420px;
-            transform: rotate(330deg);
-        }
-
-        footer {
+            top: 40px;
+            right: 40%;
+          }
+          .about-us{
+            position: absolute;
+            top: 40px;
+            right: 31%;
+            text-decoration: none;
+          }
+          .product{
+            position: absolute;
+            top: 40px;
+            right: 23%;
+            text-decoration: none;
+          }
+          .contact{
+            position: absolute;
+            top: 40px;
+            right: 15%;
+            text-decoration: none;
+          }
+          .form{
+            position: absolute;
+            top: 40px;
+            right: 8%;
+            text-decoration: none;
+          }
+   section{
+       background-image: url(images/background-image.jpg);
+       height: 100%;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+      }
+     footer {
             background-color: rgb(187, 240, 240);
             font-size: larger;
             text-align: center;
